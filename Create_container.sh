@@ -1,4 +1,4 @@
-IMAGE_ID=$(pveam list local | grep ubuntu | cut -d" " -f1)
+iIMAGE_ID=$(pveam list local | grep ubuntu | cut -d" " -f1)
 CURRENT_ID=$(((100+$(pct list | wc -l))-1))
 
 echo $IMAGE_ID
