@@ -1,1 +1,2 @@
-gcc hello.c
+gcc -o bin.elf hello.c
+exit;
